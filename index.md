@@ -1,4 +1,4 @@
-<!--## 3D Scene Perception, Embeddings and Neural Rendering -->
+## 3D Scene Perception, Embeddings and Neural Rendering
 *3D Scene Perception, Embeddings and Neural Rendering* is a [WASP](https://wasp-sweden.org/)-funded NEST (Novelty, Excellence, Synergy, Teams) project, a collaborative project that involves research groups from Chalmers University of Technology, Lund University, and KTH Royal Institute of Technology.
 
 ## Partners
