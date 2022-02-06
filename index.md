@@ -3,9 +3,9 @@
 
 ## Work packages
  
-### WP1.1: Latent embeddings and disentanglement. Kathlén Kohn (lead), Mårten Björkman (colead)
-### WP1.2: Generalization and invariance. Cristian Sminchisescu (lead), Fredrik Kahl (colead)
-### WP2.1: Dynamics and deformation. Mårten Björkman (lead), Cristian Sminchisescu (colead)
-### WP2.2: Flexible and controllable generative models. Fredrik Kahl (lead), Kathlén Kohn (colead)
+#### WP1.1: Latent embeddings and disentanglement. Kathlén Kohn (lead), Mårten Björkman (colead)
+#### WP1.2: Generalization and invariance. Cristian Sminchisescu (lead), Fredrik Kahl (colead)
+#### WP2.1: Dynamics and deformation. Mårten Björkman (lead), Cristian Sminchisescu (colead)
+#### WP2.2: Flexible and controllable generative models. Fredrik Kahl (lead), Kathlén Kohn (colead)
 
 
