@@ -2,11 +2,12 @@
 *3D Scene Perception, Embeddings and Neural Rendering* is a [WASP](https://wasp-sweden.org/)-funded NEST (Novelty, Excellence, Synergy, Teams) project, a collaborative project that involves research groups from Chalmers University of Technology, Lund University, and KTH Royal Institute of Technology.
 
 ## Partners
-#### [Fredrik Kahl](https://www.chalmers.se/en/staff/Pages/fredrik-kahl.aspx) (Chalmers University of Technology) 
-#### [Kathlén Kohn](https://kathlenkohn.github.io/) (KTH Royal Institute of Technology)
-#### [Cristian Sminchisescu](https://www.maths.lth.se/sminchisescu/) (Lund University)
-#### [Mårten Björkman](https://www.kth.se/profile/celle?l=en) (KTH Royal Institute of Technology)
+- [Fredrik Kahl](https://www.chalmers.se/en/staff/Pages/fredrik-kahl.aspx) (Chalmers University of Technology) 
+- [Kathlén Kohn](https://kathlenkohn.github.io/) (KTH Royal Institute of Technology)
+- [Cristian Sminchisescu](https://www.maths.lth.se/sminchisescu/) (Lund University)
+- [Mårten Björkman](https://www.kth.se/profile/celle?l=en) (KTH Royal Institute of Technology)
 
+![](https://kathlenkohn.github.io/images/nest.png)
 
 ## Work packages
  
