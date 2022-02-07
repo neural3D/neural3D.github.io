@@ -11,9 +11,9 @@
 
 ## Work packages
  
-#### WP1.1: Latent embeddings and disentanglement. Kathlén Kohn (lead), Mårten Björkman (co-lead)
+#### WP1.1: Latent embeddings and disentanglement. Kathlén Kohn (lead), Mårten Björkman (co-lead) 
 
-<details><summary>Details</summary>
+<details><summary>Press for details</summary>
  
 Disentanglement is a widely used concept and one of the most ambitious challenges in learning. Yet, it still lacks a widely accepted formal definition. The challenge is to develop learning algorithms that disentangle the different factors of variation in the data, but what exactly that means highly depends on the application at hand. For instance, in order to be able to modify content of an indoor scene, we seek algorithms to learn situated and semantic encodings (e.g., positions and colors of objects or lighting). Several mathematical ideas have been proposed to provide a formal definition of disentanglement (e.g., statistical independence, [flattening manifolds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306444/#:~:text=Mounting%20evidence%20suggests%20that%20%E2%80%9Ccore,in%20the%20inferior%20temporal%20cortex.), [irreducible representations of groups](https://arxiv.org/abs/1402.4437), [direct products of group actions](https://arxiv.org/abs/1812.02230), but none of them applies to all practical settings where disentanglement is used. We aim to develop a more generally applicable formal definition and to study theoretical guarantees of what can be achieved with disentanglement.
 
@@ -21,7 +21,7 @@ Autoencoders are at the core of our project. An important aspect is their abilit
 
 #### WP1.2: Generalization and invariance. Cristian Sminchisescu (lead), Fredrik Kahl (co-lead)
 
-<details><summary>Details</summary>
+<details><summary>Press for details</summary>
 
 One of the key factors for the success of deep learning for 2D image interpretation is the convolutional layer, which induces translation equivariance. That is, if the input is translated, then the output is too. It drastically reduces the number of learnable parameters, compared to a fully connected layer, and increases generalization performance. For 3D data, like point clouds, meshes and graphs, other equivariances have been investigated for classification, but except for convolutions, they are not exploited in encoder-decoder models. We will analyze, construct and develop efficient implementations for other equivariances, both for
 the encoder *h<sub>ϕ</sub> ◦ g(X) = g ◦ h<sub>ϕ</sub>(X)* and similarly for the decoder, *f<sub>θ</sub> ◦ g(Z) = g ◦ f<sub>θ</sub>(Z)* for all *g* belonging to a group. We will investigate the groups of *SO(3)*, *SE(3)* and their subgroups, for instance, azimuthal rotations. <!-- Another benefit is that the pose of the 3D representation is naturally separated (disentangled), and hence, directly controllable via the embedding *Z*. In a similar strand, as the embeddings encode the different scene objects, and there is no natural order among them, the 3D representation should be permutation equivariant.-->
@@ -30,7 +30,7 @@ the encoder *h<sub>ϕ</sub> ◦ g(X) = g ◦ h<sub>ϕ</sub>(X)* and similarly fo
 
 #### WP2.1: Dynamics and deformation. Mårten Björkman (lead), Cristian Sminchisescu (co-lead)
 
-<details><summary>Details</summary>
+<details><summary>Press for details</summary>
  
 Earlier attempts to extend implicit neural scene representations to dynamic scenes and deformable objects, typically learn a model that controls how projection rays are bent to account for deformations observed in each input frame, with no consistency enforced over time or ability to interpolate between frames. To prevent the model from collapsing into a set of flat surfaces, some regularization of the deformation is required, which limits the amount of change that can be tolerated. We will explore methods to overcome these limitations by providing regularization in terms of trajectories modelled in a learned deformation space. We intend to learn latent space representations of deformation fields and enforce continuity by exploiting the sequential nature of the data. The ambition is to decouple deformations from geometry, aggregate information over multiple scenes, and learn deformation models that can be quickly adapted to novel scenes, by relying on meta-learning.
 
@@ -38,7 +38,7 @@ Deformations in the real world are typically governed by laws of physics, which 
 
 #### WP2.2: Flexible and controllable generative models. Fredrik Kahl (lead), Kathlén Kohn (co-lead)
 
-<details><summary>Details</summary>
+<details><summary>Press for details</summary>
   
 Given a trained encoder-decoder model, we need to be able to perform inference on incomplete data. Typically, objects are only visible from a few viewpoints or even a single viewpoint, whereas the encoder-decoder model training usually relies on complete data. There are several possible approaches to cope with missing data:
 (i) Adapt the encoder so to accommodate missing data, (ii) Optimize the latent variable representation *Z* such that the it matches the given observations. More specifically, for a given 2D observation *I*, we add the loss function *\|\|π ◦ f<sub>θ</sub>(Z) − I\|\|<sup>2</sup>* and minimize over *Z*. We will explore both approaches, including hybrid variants depending on the application scenario. 
