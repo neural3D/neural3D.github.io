@@ -1,7 +1,7 @@
 ---
 name: Kathlén Kohn
 university: KTH
-position: Assoc. Professor
+position: Assistant Professor
 topic: 
 link: https://kathlenkohn.github.io/
 ---
