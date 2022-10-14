@@ -21,7 +21,7 @@ classes: wide
 {% endfor %}
 
 ## Associated Researchers
-Not employed through project funds, but active collaborator in ongoing research efforts.
+Not funded by project funds, but active collaborator in ongoing research.
 
 {% for person in site.people %}
   {% if person.project_position == "associate" %}
