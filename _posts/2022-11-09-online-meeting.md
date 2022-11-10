@@ -1,7 +1,7 @@
 ---
-title: "Online Meeting and Presentation on Equivariant CNNs"
+title: "Online Meeting and Discussion on Equivariant Neural Network"
 excerpt_separator: "<!--more-->"
-date: 2022-10-10T15:34:30-04:00
+date: 2022-11-09T9:30:00-00:00
 categories:
   - Blog
 tags:
