@@ -1,5 +1,5 @@
 ---
-title: "Welcoming David Nilsson and discussion on equivariant autoencoders."
+title: "Welcoming David Nilsson and discussion on equivariant autoencoders"
 excerpt_separator: "<!--more-->"
 date: 2023-01-30T10:00:00-00:00
 categories:
