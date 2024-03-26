@@ -1,8 +1,8 @@
 ---
 title: "Compatibility of Fundamental Matrices for Complete Viewing Graphs"
-link: https://arxiv.org/abs/2303.13593
-date: 2023-03-23T0:00:00-00:00
+link: https://arxiv.org/abs/2303.10658
+date: 2023-03-19T0:00:00-00:00
 authors: "Martin Bråtelund, Felix Rydell"
-publication: "International Conference on Computer Vision (ICCV) 2023 (in submission)"
+publication: "International Conference on Computer Vision 2023 (ICCV)"
 ---
 
