@@ -7,7 +7,7 @@ classes: wide
 
 
 <ul class="taxonomy__index">
-  {% assign postsInYear = site.publications | sort: 'publication.date' | group_by_exp: 'publication', 'publication.date | date: "%Y"' %}
+  {% assign postsInYear = site.publications | sort: 'date' | reverse | group_by_exp: 'publication', 'publication.date | date: "%Y"' %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -18,7 +18,7 @@ classes: wide
 </ul>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% assign postsByYear = site.publications | sort: 'publication.date' | group_by_exp: 'publication', 'publication.date | date: "%Y"'  %}
+{% assign postsByYear = site.publications | sort: 'date' | reverse | group_by_exp: 'publication', 'publication.date | date: "%Y"'  %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
