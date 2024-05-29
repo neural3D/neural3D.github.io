@@ -39,3 +39,13 @@ Not funded by project funds, but active collaboration in ongoing research.
   <p>{{ person.position }} ({{ person.university }})</p>
   {% endif %}
 {% endfor %}
+
+## Former Project Members
+Graduated PhD students and former postdoctoral researchers
+
+{% for person in site.people %}
+  {% if person.project_position == "former" %}
+  <h3><a href="{{ person.link }}">{{ person.name }}</a> </h3>
+  <p>{{ person.position }} ({{ person.university }})</p>
+  {% endif %}
+{% endfor %}
