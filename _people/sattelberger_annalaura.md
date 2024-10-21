@@ -2,7 +2,7 @@
 name: Anna-Laura Sattelberger
 university: KTH
 position: Postdoctoral Researcher
-project_position: staff
+project_position: former
 topic: 
 link: https://alsattelberger.de
 ---
