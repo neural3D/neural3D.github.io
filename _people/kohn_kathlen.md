@@ -1,7 +1,7 @@
 ---
 name: Kathlén Kohn
 university: KTH
-position: Assistant Professor
+position: Associate Professor
 project_position: lead
 topic: 
 link: https://www.kth.se/profile/orlandom
